@@ -1,6 +1,11 @@
 eureka:
+  instance:
+    hostname: localhost
+    port: 9091
   client:
-    healthcheck:
-      enabled: true
+    registerWithEureka: true
+    fetchRegistry: false
     serviceUrl:
-      defaultZone: http://192.168.137.1:8761/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
+  server:
+    wait-time-in-ms-when-sync-empty: 3000
