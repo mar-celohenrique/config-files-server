@@ -13,3 +13,8 @@ eureka:
 server:
   port: 9093
 
+
+spring:
+  profiles:
+    active: local
+
