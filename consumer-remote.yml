@@ -11,7 +11,7 @@ eureka:
     wait-time-in-ms-when-sync-empty: 3000
 
 server:
-  port: 9093
+  port: 9094
 
 spring:
   profiles:
