@@ -1,6 +1,6 @@
 example:
-  name: 'Marcelo'
-  age: 22  
+  name: 'Everton'
+  age: 30  
 
 spring:
   rabbitmq:
