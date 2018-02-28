@@ -1,3 +1,13 @@
 example:
   name: 'Marcelo'
   age: 22  
+
+spring:
+  rabbitmq:
+      host: termite.rmq.cloudamqp.com
+      port: 5672
+      virtual-host: yyogrobz
+      username: yyogrobz
+      password: BBXDbPyZZvP1nUi0Y5y-5midvANB_sNe
+server:
+  port: 8081
