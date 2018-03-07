@@ -1,0 +1,14 @@
+{
+  "name": "request-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "request-token.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcelo",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
