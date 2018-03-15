@@ -9,4 +9,4 @@ eureka:
     wait-time-in-ms-when-sync-empty: 3000
 
 server:
-  port: 9070
+  port: 0
