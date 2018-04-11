@@ -14,5 +14,5 @@ eureka:
     wait-time-in-ms-when-sync-empty: 3000
 
 user:
-  name: "Marcelo"
-  age: 22
+  name: "Everton"
+  age: 30
